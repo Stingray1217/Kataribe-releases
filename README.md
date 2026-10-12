@@ -12,8 +12,8 @@ This repository only hosts the release files (no source code).
 ## 日本語
 
 - **Kataribe_Beta_V&lt;版&gt;_Setup.exe**（おすすめ）: ダウンロードして実行します。管理者権限は不要です。
-- **Kataribe_Beta_V&lt;版&gt;.zip**: 展開して Kataribe.cmd をダブルクリック（Install.cmd でアイコンを作れます）。
-- 配布物は **株式会社RAY** の証明書でコード署名しています（Windows 11 の Smart App Control がオンの PC でも動きます）。
+- **Kataribe_Beta_V&lt;版&gt;.zip**（Smart App Control がオフの PC 向け）: 展開して Kataribe.cmd をダブルクリック（Install.cmd でアイコンを作れます）。起動用の .cmd は署名できない形式のため、Smart App Control がオンの PC では起動できません。
+- 配布物は **株式会社RAY** の証明書でコード署名しています。セットアップ版は Windows 11 の Smart App Control がオンの PC でも動きます。
 - ブラウザーに「一般的にダウンロードされていません」と出て「未確認 ….crdownload」のまま止まったら、ダウンロードの一覧（Edge は Ctrl + J）で「…」→「保存」→「保持する」を選んでください。
 - 初めて実行するとき「Windows によって PC が保護されました」と出たら「詳細情報」を押し、発行元が「株式会社RAY」であることを確かめて「実行」を押します。**発行元が違う場合は実行しないでください。**
 - SHA-256 は各 Release の SHA256SUMS.txt にあります。
@@ -22,8 +22,8 @@ This repository only hosts the release files (no source code).
 ## English
 
 - **Kataribe_Beta_V&lt;version&gt;_Setup.exe** (recommended): download and run it. No administrator rights needed.
-- **Kataribe_Beta_V&lt;version&gt;.zip**: extract it and double-click Kataribe.cmd (Install.cmd can create the icons).
-- Everything is code-signed by **株式会社RAY (RAY Inc.)**, so it also runs on PCs with Windows 11 Smart App Control turned on.
+- **Kataribe_Beta_V&lt;version&gt;.zip** (for PCs with Smart App Control off): extract it and double-click Kataribe.cmd (Install.cmd can create the icons). The .cmd launchers cannot be code-signed, so they do not start on PCs with Smart App Control turned on.
+- Everything is code-signed by **株式会社RAY (RAY Inc.)**; the setup edition also runs on PCs with Windows 11 Smart App Control turned on.
 - If your browser says the file "isn't commonly downloaded" and leaves it as "Unconfirmed ….crdownload", open the downloads list (Ctrl + J in Edge) and choose "…" → "Keep" → "Keep anyway".
 - If "Windows protected your PC" appears the first time you run it, click "More info", check that the publisher is "株式会社RAY" (RAY Inc.), then click "Run anyway". **Do not run it if the publisher is different.**
 - SHA-256 checksums are in SHA256SUMS.txt in each release.
